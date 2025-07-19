@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: url("C:\Users\91984\Downloads\noaa-p9BRX1mBfe4-unsplash.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+/* Overlay for readability */
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+/* Title */
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Search */
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff5048;
+}
+
+/* Weather Info */
+.weather-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#weatherIcon {
+    width: 60px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
